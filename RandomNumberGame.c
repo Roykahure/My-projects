@@ -16,15 +16,15 @@ int main()
 
 		if (guess < num)
 		{
-			printf("Your Guess is less than number \n");
+			printf("Your Guess is less than the number \n");
 		}
 		else if (guess > num)
 		{
-			printf("Your Guess is Greater than number \n");
+			printf("Your Guess is Greater than the number \n");
 		}
 		else if (guess == num)
 		{
-			printf("Bingo!!!  You Guessed %d time\n", nGuesses);
+			printf("Bingo!!!CORRECT:  You Guessed %d time\n", nGuesses);
 		}
 
 		nGuesses++;
