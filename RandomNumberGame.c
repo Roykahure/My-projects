@@ -25,6 +25,7 @@ int main()
 		else if (guess == num)
 		{
 			printf("Bingo!!!CORRECT:  You Guessed %d time\n", nGuesses);
+			continue;
 		}
 		nGuesses++;
 		if (nGuesses > 5)
