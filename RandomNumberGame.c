@@ -13,7 +13,7 @@ int main()
 	{
 		printf("Guess a number between 1 and 50: You have five attempts\n");
 		scanf("%d", &guess);
-	
+
 		if (guess < num)
 		{
 			printf("Your Guess is less than the number \n");
@@ -27,15 +27,13 @@ int main()
 			printf("Bingo!!!CORRECT:  You Guessed %d time\n", nGuesses);
 		}
 		nGuesses++;
-		 if (nGuesses>5)
+		if (nGuesses > 5)
 		{
 			printf("\nYou have LOST!");
 			break;
 		}
 
-	
 	} while (guess != num);
-	
 
 	return 0;
 }
